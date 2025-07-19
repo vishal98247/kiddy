@@ -1,0 +1,1432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alexandria",sans-serif;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+
+#firstsection .container-fluid {
+    /* background: tan; */
+    margin-top: 50px;
+    width: 90%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+#firstsection p i {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 0.7rem;
+}
+
+#firstsection p:hover {
+    background: lightgray;
+}
+
+#firstsection p {
+    /* background: red; */
+    padding: 6px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+#firstsection input {
+    background: #e6e8e9;
+    border: none;
+    /* padding-top: 10px; */
+}
+
+input:focus {
+    outline: none;
+}
+
+
+#firstsection form {
+    width: 50%;
+    background: #e6e8e9;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    /* color: gray; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+#firstsection .form-group {
+    width: 100%;
+    /* background: yellowgreen; */
+}
+
+#firstsection .form-select {
+    background-color: #e6e8e9;
+    border: none;
+    border-radius: 0%;
+}
+
+
+#firstsection #ul1 {
+    display: none;
+}
+
+#firstsection #ul2 {
+    display: none;
+    float: right;
+    padding-top: 10px;
+}
+
+#firstsection #ul2 i {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#firstsection .box {
+    display: none;
+}
+
+#firstsection .navbar-toggler {
+    border: none;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+#secondsection .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #e6e8e9;
+}
+
+#secondsection i {
+    padding-right: 10px;
+}
+
+#secondsection li a {
+    font-size: 0.85rem;
+    padding-bottom: 5px;
+}
+
+#secondsection li {
+    margin-right: 25px;
+}
+
+#secondsection .active {
+    border-bottom: 3px solid black;
+}
+
+#secondsection #ul1 li .nav-link:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+#secondsection #ul2 li a:hover {
+    color: orange;
+}
+
+#secondsection .dropdown-menu a:hover {
+    color: orange;
+    background: none;
+}
+
+
+
+
+
+/*  */
+
+
+.thirdsection .container-fluid{
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    /* background: yellowgreen; */
+}
+
+.thirdsection img{
+    width: 100%;
+}
+
+.thirdsection .left:hover img{
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.thirdsection .left{
+    padding: 0px 40px;
+}
+
+.thirdsection .left i{
+    float: right;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.thirdsection nav li{
+    font-size: 0.8rem;
+}
+
+.thirdsection nav a{
+    text-decoration: none;
+    color: orange;
+}
+
+.thirdsection h4{
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.thirdsection h5{
+    font-weight: 600;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.thirdsection p{
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: 400;
+}
+
+
+.thirdsection input{
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.thirdsection .btn{
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* margin-top: 20px; */
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+.thirdsection .btn:hover{
+    color: black;
+}
+
+.thirdsection .btn:after {
+    content: "";
+    background: orange;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.7s;
+}
+
+.thirdsection .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.7s;
+}
+
+.thirdsection .right1{
+    margin-top: 40px;
+}
+
+.thirdsection #font{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.thirdsection #font i{
+    margin-right: 40px;
+    font-size: 1.1rem;
+}
+
+.thirdsection #font span{
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.thirdsection h6 span{
+    padding-left: 5px;
+    font-weight: 400;
+    color: gray;
+}
+
+.thirdsection .brand i{
+    margin-right: 10px;
+}
+
+
+.thirdsection #expand{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+.forthsection .container-fluid{
+    width: 80%;
+    /* background: thistle; */
+    margin-top: 50px;
+}
+
+.forthsection a, p{
+    text-decoration: none;
+}
+
+.forthsection a h6{
+    color: black;
+}
+
+.forthsection a h6:hover{
+    color: orange;
+}
+
+
+.forthsection h5{
+    text-align: center;
+    margin-bottom: 10px;
+    color: orange;
+    margin-bottom: 40px;
+    /* padding-bottom: 10px; */
+}
+
+.forthsection .col-lg-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.forthsection h5 i{
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+}
+
+.forthsection #p{
+    color: gray;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.forthsection h4{
+    margin-top: 50px;
+    padding: 0;
+    font-weight: 800;
+}
+
+
+.forthsection .img1 {
+    background-image: url(../images//52.webp);
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.forthsection .img1:hover {
+    background-size: 120%;
+}
+
+.forthsection .img2 {
+    background-image: url(../images/12.webp);
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+    transition-duration: 1s;
+}
+
+.forthsection .img2:hover {
+    background-size: 120%;
+}
+
+.forthsection .img3 {
+    background-image: url(../images/56.webp);
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+    transition-duration: 1s;
+}
+
+.forthsection .img3:hover {
+    background-size: 120%;
+}
+
+.forthsection .img4 {
+    background-image: url(../images/55.webp);
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+    transition-duration: 1s;
+}
+
+.forthsection .img4:hover {
+    background-size: 120%;
+}
+
+.forthsection span {
+    background: #e6e8e9;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+.forthsection span:hover {
+    background: orange;
+    color: white;
+}
+
+.forthsection .card-top .row {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-align: center;
+}
+
+.forthsection .card {
+    border: 1px solid #e6e8e9;
+}
+
+.forthsection .card-body .row {
+    border-top: 1px solid #e6e8e9;
+    padding-top: 20px;
+    color: gray;
+}
+
+.forthsection .card-body .row h6 {
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.forthsection #left {
+    border-right: 1px solid #e6e8e9;
+}
+
+.forthsection #right:hover {
+    color: orange;
+}
+
+.forthsection .card p:hover {
+    color: orange;
+}
+
+
+.forthsection .col-lg-3 .kid {
+    /* background: yellowgreen; */
+    margin: 15px 5px;
+    border-radius: 20px;
+}
+
+.forthsection h6 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.forthsection .card p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+.ninthsection .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.ninthsection .row {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.ninthsection h6 {
+    font-weight: 700;
+}
+
+
+.ninthsection i {
+    font-size: 1.8rem;
+}
+
+.ninthsection .col:hover i {
+    scale: 1.2;
+    transition: 0.7s;
+}
+
+.ninthsection p {
+    font-weight: 300;
+    font-size: 0.85rem;
+    color: rgb(195, 192, 192);
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+.tenthsection .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    /* background: yellowgreen; */
+    /* margin-bottom: 100px; */
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.tenthsection img {
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+
+.tenthsection .right span i {
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 100%;
+    font-size: 0.7rem;
+}
+
+.tenthsection .right span:hover {
+    background: lightgray;
+}
+
+.tenthsection .right span {
+    /* background: red; */
+    padding: 10px;
+    width: 35%;
+    border-radius: 30px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 1rem;
+    float: right;
+    /* right: 0px; */
+}
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+.eleventhsection {
+    background: #c5b7ef;
+}
+
+.eleventhsection .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.eleventhsection h4 {
+    margin-bottom: 50px;
+}
+
+.eleventhsection span {
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+}
+
+.eleventhsection .about p {
+    margin-bottom: 30px;
+}
+
+
+.eleventhsection p {
+    font-size: 0.85rem;
+    /* margin-bottom: 30px; */
+
+}
+
+.eleventhsection .about i {
+    color: black;
+    /* width: 11%; */
+    margin-right: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.eleventhsection .about i:hover {
+    background: black;
+    color: white;
+}
+
+.eleventhsection .quick i {
+    color: white;
+    background: black;
+    padding: 2px 5px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.eleventhsection .quick p:hover {
+    margin-left: 15px;
+    transition: 0.7s;
+}
+
+
+.eleventhsection input {
+    border: 1px solid black;
+    background: #c5b7ef;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.eleventhsection button {
+    position: relative;
+    left: -30px;
+    width: 100%;
+    background: black;
+    color: #c9c6f5;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    transition: 1s;
+}
+
+
+.eleventhsection button:hover {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+.twelthsection {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+    #firstsection .container-fluid {
+        width: 99%;
+    }
+
+    #firstsection img {
+        width: 9%;
+    }
+
+    #firstsection input {
+        font-size: 0.81rem;
+    }
+
+    #firstsection .form-select {
+        font-size: 0.8rem;
+        color: gray;
+    }
+
+    #firstsection p {
+        padding: 7px 15px 7px 7px;
+    }
+
+    #secondsection .container-fluid {
+        width: 99%;
+    }
+
+    .thirdsection .container-fluid{
+        width: 95%;
+    }
+
+    .forthsection .container-fluid{
+        width: 95%;
+    }
+
+    .forthsection .card-body .row h6{
+        font-size: 0.8rem;
+    }
+
+    .ninthsection .container-fluid {
+        width: 99%;
+    }
+
+    .tenthsection .container-fluid {
+        width: 99%;
+    }
+
+    .tenthsection .right span {
+        width: 41%;
+    }
+
+    .tenthsection img {
+        width: 10%;
+    }
+
+    .eleventhsection .container-fluid {
+        width: 100%;
+    }
+
+    .eleventhsection input {
+        font-size: 0.9rem;
+    }
+
+    .eleventhsection .btn {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:1092px) {
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+    #firstsection img {
+        width: 10%;
+    }
+
+    #firstsection input {
+        font-size: 0.75rem;
+    }
+
+    #secondsection li {
+        margin-right: 20px;
+    }
+
+    .forthsection .card-body .row h6{
+        font-size: 0.7rem;
+    }
+
+    .tenthsection .right span {
+        width: 45%;
+    }
+
+    .tenthsection img {
+        width: 12%;
+    }
+
+    .eleventhsection p {
+        font-size: 0.8rem;
+    }
+
+    .eleventhsection input {
+        font-size: 0.8rem;
+    }
+
+    .eleventhsection .btn {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+@media only screen and (max-width:991px) {
+
+    #firstsection .offcanvas-body form {
+        width: 100%;
+    }
+
+    #firstsection img {
+        width: 12%;
+    }
+
+    #firstsection p {
+        display: none;
+    }
+
+    #firstsection #ul1 {
+        margin-top: 30px;
+        display: block;
+    }
+
+    #firstsection #ul2 {
+        display: block;
+        float: right;
+        text-align: right;
+    }
+
+    #firstsection .box {
+        display: block;
+        margin-top: 50px;
+    }
+
+    #firstsection #ul1 li a {
+        font-weight: 800;
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    #firstsection input {
+        font-size: 1rem;
+    }
+
+    #firstsection #ul1 li .active {
+        color: orange;
+    }
+
+    #firstsection .form-select {
+        font-size: 1rem;
+    }
+
+    #firstsection .box .row {
+        margin-top: 20px;
+    }
+
+    #firstsection .offcanvas {
+        --bs-offcanvas-width: 650px;
+        padding: 0px 20px;
+    }
+
+    #firstsection .offcanvas img {
+        padding-top: 50px;
+        width: 22%;
+    }
+
+    #secondsection {
+        display: none;
+    }
+
+    #secondsection {
+        display: none;
+    }
+
+    .thirdsection h4{
+        font-size: 2rem;
+    }
+
+    .forthsection h6{
+        font-size: 1.5rem;
+    }
+
+    .forthsection .card p{
+        font-size: 1.2rem;
+    }
+
+    .forthsection .card-body .row h6{
+        font-size: 1.2rem;
+    }
+
+    .forthsection .card-top{
+        height: 400px;
+    }
+
+    .ninthsection h6 {
+        font-size: 1.4rem;
+    }
+
+    .ninthsection p {
+        font-size: 1rem;
+    }
+
+    .tenthsection .right span {
+        width: 80%;
+    }
+
+    .eleventhsection .col-lg-3 {
+        margin-bottom: 50px;
+    }
+
+    .eleventhsection .container-fluid {
+        padding-bottom: 50px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:900px) {
+
+    #firstsection .offcanvas {
+        --bs-offcanvas-width: 600px;
+        padding: 0px 20px;
+    }
+
+    .tenthsection .right span {
+        width: 85%;
+    }
+
+    .tenthsection img {
+        width: 15%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+@media only screen and (max-width:800px) {
+
+    
+
+    .tenthsection .right span {
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:767px) {
+
+
+    #firstsection img {
+        width: 17%;
+    }
+
+    
+
+    .thirdsection .container-fluid{
+        width: 99%;
+    }
+
+    .forthsection .container-fluid{
+        width: 99%;
+    }
+
+    .forthsection h4{
+        font-size: 2rem;
+    }
+
+    .forthsection .row{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .forthsection .card-top{
+        height: 600px;
+    }
+
+    .forthsection .col-lg-3 .kid{
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .ninthsection i {
+        font-size: 3rem;
+    }
+
+    .tenthsection .container-fluid {
+        padding: 30px;
+    }
+
+    .tenthsection img {
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .tenthsection p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .tenthsection .right {
+        /* justify-content: center; */
+        /* text-align: center; */
+        width: 42%;
+        margin: 0 auto;
+    }
+
+    .eleventhsection p {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:651px) {
+
+    #firstsection .offcanvas {
+        --bs-offcanvas-width: 100%;
+        padding: 0px 20px;
+    }
+
+    .tenthsection .right {
+        width: 50%;
+    }
+
+    .tenthsection img {
+        width: 28%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+@media only screen and (max-width:576px) {
+
+    #firstsection .col-sm-1 i{
+        float: right;
+    }
+
+    .thirdsection img{
+        margin-bottom: 50px;
+    }
+
+    .forthsection .card-top{
+        height: 500px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:540px) {
+
+    #firstsection input {
+        font-size: 0.8rem;
+    }
+
+    #firstsection .offcanvas-body form {
+        width: 100%;
+        position: relative;
+    }
+
+    #firstsection .col-5 {
+        display: none;
+    }
+
+    .tenthsection .right {
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:460px) {
+
+
+
+    .tenthsection .right {
+        width: 65%;
+    }
+
+    .tenthsection .right span {
+        font-size: 0.9rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:426px) {
+
+    #firstsection img {
+        width: 25%;
+    }
+
+    #firstsection .offcanvas img {
+        padding-top: 20px;
+        width: 28%;
+    }
+
+    .forthsection .card-top{
+        height: 400px;
+    }
+
+    .thirdsection .col-10{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .thirdsection .col-2{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .thirdsection .p{
+        font-size: 0.9rem;
+    }
+
+    .forthsection #p{
+        font-size: 0.9rem;
+    }
+
+    .forthsection h4{
+        font-size: 1.7rem;
+    }
+
+    .ninthsection i {
+        font-size: 2rem;
+    }
+
+    .ninthsection h6 {
+        font-size: 1.2rem;
+    }
+
+    .ninthsection p {
+        font-size: 0.85rem;
+    }
+
+    .tenthsection .container-fluid {
+        padding: 30px 10px;
+    }
+
+    .tenthsection img {
+        width: 35%;
+    }
+
+    .eleventhsection p {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+@media only screen and (max-width:376px) {
+
+    #firstsection #ul1 li a {
+        font-size: 1rem;
+    }
+
+    #firstsection .box1 h6 {
+        font-size: 0.8rem;
+    }
+
+    #firstsection .box1 span {
+        font-size: 0.6rem;
+    }
+
+    .forthsection .card-top{
+        height: 300px;
+    }
+
+    .forthsection .card-body .row h6{
+        font-size: 1rem;
+    }
+
+    .ninthsection .row {
+        padding: 20px 10px;
+    }
+
+    .ninthsection i {
+        font-size: 1.8rem;
+    }
+
+    .ninthsection p {
+        font-size: 0.8rem;
+    }
+
+    .tenthsection img {
+        width: 38%;
+    }
+
+    .tenthsection p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .tenthsection .right {
+        width: 75%;
+    }
+
+}
+
